@@ -12,13 +12,13 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: const FirebaseOptions(
-            apiKey: "AIzaSyCgpboaP_PLii2RQpY4CMte_sJGzjNaEFg",
-            authDomain: "rssdatabase-9a243.firebaseapp.com",
-            projectId: "rssdatabase-9a243",
-            storageBucket: "rssdatabase-9a243.firebasestorage.app",
-            messagingSenderId: "1052842107322",
-            appId: "1:1052842107322:web:51bdb37c480000d389bd83",
-            measurementId: "G-X1RT1HRSD5"));
+            apiKey: "",
+            authDomain: "",
+            projectId: "",
+            storageBucket: "",
+            messagingSenderId: "",
+            appId: "",
+            measurementId: ""));
   } else {
     await Firebase.initializeApp();
   }
